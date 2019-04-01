@@ -4,6 +4,11 @@ body
 	width: 75%;
 }
 
+th > input
+{
+	font-weight: bold;
+}
+
 input.tbl-input
 {
 	color: black;
