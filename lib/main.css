@@ -1,15 +1,16 @@
-input:disabled
+body
 {
-	background-color: inherit;
+	margin: 2%;
+	width: 75%;
 }
 
-input
+input.tbl-input
 {
 	color: black;
 	border: none;
 }
 
-#input-table
+input.tbl-input:disabled
 {
-	width: auto;
+	background-color: inherit;
 }
