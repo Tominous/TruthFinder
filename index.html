@@ -14,9 +14,9 @@
 </head>
 <body>
 	<h2>Truth Finder</h2>
-	<div id="input-table-area">
-
-	</div>
+	<p>
+		Convert a logic table into code. For people, like me, who find it hard to visualise multiple inputs and map them to an output this can be very helpful. Due to the recursive nature of the size of a Logic Table up to 4 variables are supported maximum. Hopefully this spaghetti code can help you reduce your spaghetti code :)
+	</p>
 	<table class="" id="variable-table">
 		<tr>
 			<th>var</th>
@@ -144,16 +144,19 @@
 			<th colspan="4"><h3>Change Variables</h3></th>
 		</tr>
 		<tr>
-			<th>1</th>
-			<th>2</th>
-			<th>3</th>
-			<th>4</th>
+			<th class="var-label">1</th>
+			<th class="var-label">2</th>
+			<th class="var-label">3</th>
+			<th class="var-label">4</th>
 		</tr>
 		<tr>
 			<td><input id="var-1" class="var-name" type="text" value="var" /></td>
 			<td><input id="var-2" class="var-name" type="text" value="var" /></td>
 			<td><input id="var-3" class="var-name" type="text" value="var" /></td>
 			<td><input id="var-4" class="var-name" type="text" value="var" /></td>
+		</tr>
+		<tr>
+			<td colspan="4">Change the variable names to the ones your using in your program. Leave a variable empty to remove it.</td>
 		</tr>
 	</table>
 	<div id="output">

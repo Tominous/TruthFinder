@@ -42,6 +42,11 @@ input.var-name
 	width: 100px;
 }
 
+.var-label
+{
+	text-align: center;
+}
+
 
 td.output-zero:not(:empty)
 {
