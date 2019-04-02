@@ -20,6 +20,42 @@ input.tbl-input:disabled
 	background-color: inherit;
 }
 
+
+
+#variable-table
+{
+	display: inline-table;
+	float: left;
+}
+
+
+#change-vars
+{
+	display: inline-table;
+	float: right;
+	width: 40%;
+}
+
+
+input.var-name
+{
+	width: 100px;
+}
+
+
+td.output-zero
+{
+	background-color: orangered;
+}
+
+td.output-one
+{
+	background-color: green;
+}
+
+
+/* Output column, switch between 1/0 */
+
 .output-select > button
 {
 	background-color: inherit;
@@ -32,17 +68,6 @@ input.tbl-input:disabled
 	outline: none;
 }
 
-
-.output-select > button.selected
-{
-	font-weight: bold;
-}
-
-.output-select:not(:hover) > button:not(.selected)
-{
-	visibility: hidden;
-}
-
 .output-select > button.output-zero
 {
 	color: orangered;
@@ -51,4 +76,28 @@ input.tbl-input:disabled
 .output-select > button.output-one
 {
 	color: green;
+}
+
+
+/* Add-remove column buttons */
+.addremove-buttons
+{
+	display: inline;
+}
+
+.addremove-buttons > button
+{
+	font-weight: bold;
+	background-color: inherit;
+	border: none;
+}
+
+.addremove-buttons > button.add-btn
+{
+	color: green;
+}
+
+.addremove-buttons > button.remove-btn
+{
+	color: orangered;
 }

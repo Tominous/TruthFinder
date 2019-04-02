@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
 	<title>Truth Finder</title>
@@ -14,36 +14,147 @@
 </head>
 <body>
 	<h2>Truth Finder</h2>
-	<table id="input-table" class="table table-hover table-striped">
-		<thead class="thead-light">
-			<tr>
-				<th ondblclick="tblEdit.enable(this)"><input class="tbl-input" value="variableA" disabled onblur="tblEdit.disable(this)" onkeydown="tblEdit.edit(this, event);"></th>
-				<th ondblclick="tblEdit.enable(this)"><input class="tbl-input" value="otherVariableB" disabled onblur="tblEdit.disable(this)" onkeydown="tblEdit.edit(this, event);"></th>
-				<th>Output</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>0</td>
-				<td>0</td>
-				<td class="output-select"><button class="output-zero selected">0</button><button class="output-one">1</button></td>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>0</td>
-				<td class="output-select"><button class="output-zero">0</button><button class="output-one selected">1</button></td>
-			</tr>
-			<tr>
-				<td>0</td>
-				<td>1</td>
-				<td class="output-select"><button class="output-zero">0</button><button class="output-one selected">1</button></td>
-			</tr>
-			<tr>
-				<td>1</td>
-				<td>1</td>
-				<td class="output-select"><button class="output-zero selected">0</button><button class="output-one">1</button></td>
-			</tr>
-		</tbody>
+	<div id="input-table-area">
+
+	</div>
+	<table class="" id="variable-table">
+		<tr>
+			<th>var</th>
+			<th>var</th>
+			<th>var</th>
+			<th>var</th>
+			<th>Output</th>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+		<tr>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td>-</td>
+			<td class="output-select"><button class="output-zero">0</button></td>
+		</tr>
+	</table>
+
+	<table id="change-vars">
+		<tr>
+			<th colspan="4"><h1>Change Variables</h1></th>
+		</tr>
+		<tr>
+			<th>1</th>
+			<th>2</th>
+			<th>3</th>
+			<th>4</th>
+		</tr>
+		<tr>
+			<td><input id="var-1" class="var-name" type="text" value="var" /></td>
+			<td><input id="var-2" class="var-name" type="text" value="var" /></td>
+			<td><input id="var-3" class="var-name" type="text" value="var" /></td>
+			<td><input id="var-4" class="var-name" type="text" value="var" /></td>
+		</tr>
 	</table>
 	<div id="output">
 		<select id="out-lang">
