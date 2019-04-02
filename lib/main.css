@@ -19,3 +19,36 @@ input.tbl-input:disabled
 {
 	background-color: inherit;
 }
+
+.output-select > button
+{
+	background-color: inherit;
+	border: none;
+	width: 50%;
+}
+
+.output-select > button:focus
+{
+	outline: none;
+}
+
+
+.output-select > button.selected
+{
+	font-weight: bold;
+}
+
+.output-select:not(:hover) > button:not(.selected)
+{
+	visibility: hidden;
+}
+
+.output-select > button.output-zero
+{
+	color: orangered;
+}
+
+.output-select > button.output-one
+{
+	color: green;
+}
