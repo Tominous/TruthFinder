@@ -25,7 +25,6 @@ input.tbl-input:disabled
 #variable-table
 {
 	display: inline-table;
-	float: left;
 }
 
 
@@ -105,4 +104,10 @@ td.output-one:not(:empty)
 .addremove-buttons > button.remove-btn
 {
 	color: orangered;
+}
+
+
+
+#output
+{
 }
