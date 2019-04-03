@@ -15,7 +15,7 @@
 <body>
 	<h2>Truth Finder</h2>
 	<p>
-		Convert a logic table into code. For people, like me, who find it hard to visualise multiple inputs and map them to an output this can be very helpful. Due to the recursive nature of the size of a Logic Table up to 4 variables are supported maximum. Hopefully this spaghetti code can help you reduce your spaghetti code :)
+		Convert a logic table into code. For people, like me, who find it hard to visualise multiple inputs and map them to an output this can be very helpful. Due to the recursive nature of the size of a Logic Table up to 4 variables are supported maximum. Hopefully this spaghetti code can help you reduce your spaghetti code :)  <button onclick="truthTable.fillTable();">Not working? Click here to reset table</button>
 	</p>
 	<table class="" id="variable-table">
 		<tr>
@@ -167,7 +167,7 @@
 		</select>
 		<br /><br />
 		<div class="input-group">
-			<input class="form-control" id="out-expression" type="text" disabled />
+			<textarea class="form-control" id="out-expression" type="text" disabled></textarea>
 			<div class="input-group-append">
 				<button class="input-group-text" onclick="copyToClipboard($('#out-expression'));">Copy</button>
 			</div>
