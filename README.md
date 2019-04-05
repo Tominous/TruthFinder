@@ -1,6 +1,7 @@
 # TruthFinder
 
-<img src="https://i.imgur.com/nKhfmtp.png"></img>
+<a href="https://cyruscook.co.uk/truthfinder/">https://cyruscook.co.uk/truthfinder/
+<img src="https://i.imgur.com/nKhfmtp.png"></img></a>
 
 Use an interactive truth table to write a logical expression in a programming language of your choice.
 
